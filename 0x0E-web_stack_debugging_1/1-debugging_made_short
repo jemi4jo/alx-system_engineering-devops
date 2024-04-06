@@ -4,4 +4,8 @@ ln -s /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
 
 service nginx start
 
+<<<<<<< HEAD
 kill "$(pgrep 'nginx' | head -1)"
+=======
+kill "$(pgrep 'nginx' | head -1)"
+>>>>>>> 5a430513cc36cbfdafaadc333cef0b3a264e52e2
